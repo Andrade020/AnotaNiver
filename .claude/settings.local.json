@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npx expo *)",
+      "Bash(npx create-expo-app@latest . --template blank-typescript)",
+      "Read(//c/Users/LucasRafaeldeAndrade/Desktop/Repositorios/**)",
+      "Bash(npx create-expo-app@latest _anota_temp --template blank-typescript)",
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell(npm install *)"
+    ]
+  }
+}
