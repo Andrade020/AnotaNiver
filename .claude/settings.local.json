@@ -7,7 +7,17 @@
       "Read(//c/Users/LucasRafaeldeAndrade/Desktop/Repositorios/**)",
       "Bash(npx create-expo-app@latest _anota_temp --template blank-typescript)",
       "PowerShell(Get-ChildItem *)",
-      "PowerShell(npm install *)"
+      "PowerShell(npm install *)",
+      "Bash(gh --version)",
+      "PowerShell(winget install *)",
+      "PowerShell(gh *)",
+      "PowerShell(winget list *)",
+      "PowerShell($url = \"https://github.com/cli/cli/releases/download/v2.68.1/gh_2.68.1_windows_amd64.msi\"; $out = \"$env:TEMP\\\\gh_install.msi\"; Invoke-WebRequest -Uri $url -OutFile $out; Write-Host \"Downloaded to $out\")",
+      "PowerShell(Start-Process msiexec.exe -ArgumentList \"/i `\"$env:TEMP\\\\gh_install.msi`\" /quiet /norestart\" -Wait; Write-Host \"Install done\")",
+      "PowerShell($env:PATH = $env:PATH + \";C:\\\\Program Files\\\\GitHub CLI\"; & \"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" --version)",
+      "PowerShell(Expand-Archive *)",
+      "PowerShell(Test-Path *)",
+      "PowerShell(Get-Item *)"
     ]
   }
 }
